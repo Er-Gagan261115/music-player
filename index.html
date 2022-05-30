@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Music player</title>
+</head>
+
+<body>
+    
+        <div class="music_card" id="music-card-1">
+            <div class="music_name" id="name_music">
+                creative-minds
+            </div>
+            <div class="images" >
+                <img src="https://images.unsplash.com/photo-1459749411175-04bf5292ceea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" id="img_music"
+                    alt="">
+            </div>
+            <div class="allbtns">
+                <button id="prev"><img src="https://cdn.pixabay.com/photo/2014/04/02/10/55/arrow-304924_960_720.png"
+                        alt=""></button>
+                <button id="play"><img src="https://cdn.pixabay.com/photo/2013/07/12/16/56/play-151523_1280.png" alt="">
+                </button>
+                <button id="pause"><img src="https://cdn.pixabay.com/photo/2014/04/02/10/22/pause-303651_1280.png"
+                        alt=""></button>
+                <button id="next"><img src="https://cdn.pixabay.com/photo/2012/04/12/19/38/arrow-30330_960_720.png"
+                        alt=""></button>
+            </div>
+            <audio id="audio">
+                <source  src="music/bensound-creativeminds.mp3" >
+            </audio>
+        </div>
+        
+           <div class="list">
+               <div class="style">
+                <p>songs</p>
+                <ul id="all_list">
+                 </ul>
+               </div>
+           </div>
+        
+    
+    <script src="concept.js"></script>
+</body>
+
+</html>
